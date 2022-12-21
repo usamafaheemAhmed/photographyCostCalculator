@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f4f4f4;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 53px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: center;
+}
+.card{
+    position: absolute;
+    z-index: 2; /* put .gold-box above .green-box and .dashed-box */
+    box-shadow: -90px -30px 0px rgb(255, 153, 0, 1);
+}
+.wrapper {
+    position: relative;
+  }
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+span{
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 53px;
+}
+
+.card-footer{
+    background: #333333;
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
